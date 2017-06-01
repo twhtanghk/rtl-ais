@@ -1,7 +1,7 @@
 version: '2'
 services:
   ais:
-    image: twhtanghk/ais
+    image: twhtanghk/rtl-ais
     privileged: true
     ports:
       - 10110
