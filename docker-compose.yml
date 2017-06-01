@@ -1,0 +1,10 @@
+version: '2'
+services:
+  ais:
+    image: twhtanghk/ais
+    privileged: true
+    ports:
+      - 10110
+    volumes:
+      - /dev:/dev
+    entrypoint: /usr/src/app/rtl_ais -n
